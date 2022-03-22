@@ -10,7 +10,7 @@
   inputs.src-nest-master.flake = false;
   inputs.src-nest-master.ref   = "refs/heads/master";
   inputs.src-nest-master.owner = "kedean";
-  inputs.src-nest-master.repo  = "nest.git";
+  inputs.src-nest-master.repo  = "nest";
   inputs.src-nest-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
