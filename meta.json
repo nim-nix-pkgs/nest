@@ -7,66 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/kedean/nest",
   "refs": [
-    "refs/heads/develop",
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/kedean/nest.git/': SSL connection timeout",
     ""
   ],
-  "heads": [
-    {
-      "name": "nest",
-      "version": "0.1.0",
-      "author": "Kevin Dean <kevin.e.dean@gmail.com>",
-      "desc": "RESTful URI router",
-      "license": "MIT",
-      "skipDirs": [],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 0.13.0",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "0.13.0"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "src",
-      "backend": "c",
-      "ref": "refs/heads/develop"
-    },
-    {
-      "name": "nest",
-      "version": "0.1.0",
-      "author": "Kevin Dean <kevin.e.dean@gmail.com>",
-      "desc": "RESTful URI router",
-      "license": "MIT",
-      "skipDirs": [],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 0.13.0",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "0.13.0"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "src",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
